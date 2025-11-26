@@ -61,6 +61,55 @@
 #     x+=1
 
 ###task9###
-for i in range (1,20):
-    if i%2!=0:
-        print(i)
+# for i in range (1,20):
+#     if i%2!=0:
+#         print(i)
+
+
+#####test#####
+# count=0
+# while count<3:
+#     count+=1
+#     if count==2:
+#         continue
+#     print(count)
+
+# count=1
+# while count<=5:
+#     count+=1
+#     print(count)
+
+# for i in range(5):
+#     if i==3:
+#         break
+#     print(i)
+
+# for i in range(3):
+#     pass
+# print("Done")
+
+# count=1
+# while count<=5:
+#     print(count)
+#     count+=1
+
+# while True:
+#     print("Hello")
+#     break
+
+# for i in range(10):
+#     if i==5:
+#         break
+#     print(i)
+
+# count=0
+# while count<10:
+#     count+=1
+#     if count==5:
+#         continue #pass
+#     print(count)
+
+count=1
+while count<=3:
+    print(count)
+    count+=1
