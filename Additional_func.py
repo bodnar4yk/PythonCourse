@@ -1,4 +1,4 @@
-# ###iterator###
+# # ###iterator###
 # class FromOneToTwelve:
 #     n=-2
 #     def __iter__(self):
@@ -34,8 +34,10 @@
 # for num in even_iter:
 #     print(num)
 
+
 ###Generator###
 # def my_func ():
+#     print("test")
 #     for i in range(1,11):
 #         yield pow(i,2)
 
@@ -48,6 +50,7 @@ def simple_gen (val):
         yield val
 
 gen_iter=simple_gen(3)
+#print(gen_iter)
 print(next(gen_iter))
 print(next(gen_iter))
 print(next(gen_iter))
