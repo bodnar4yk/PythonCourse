@@ -57,7 +57,7 @@
 #     print("No error occurred")
 
 ###Exam##
-try:
-    value=[1,2,3][5]
-except IndexError:
-    print("index out of range")
+# try:
+#     value=[1,2,3][5]
+# except IndexError:
+#     print("index out of range")
