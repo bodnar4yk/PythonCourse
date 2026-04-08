@@ -57,7 +57,7 @@ E_XT = mu_hat + (x0 - mu_hat) * np.exp(kappa_hat * T_horizon)
 Var_XT = (sigma_hat**2 / (2 * kappa_hat)) * (np.exp(2 * kappa_hat * T_horizon) - 1)
 Std_XT = np.sqrt(Var_XT)
 
-print(f"Excpected E[XT]: {E_XT.item():.2f}")
+print(f"Expected E[XT]: {E_XT.item():.2f}")
 print(f"Expected Std[XT]: {Std_XT.item():.2f}")
 
 ##################################################
